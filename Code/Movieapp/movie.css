@@ -1,0 +1,126 @@
+*{
+    color:aliceblue;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/wave-background-abstract-gradient-design_483537-3688.jpg?t=st=1735664459~exp=1735668059~hmac=55b227d34462ff9cdcb2a90120d2b06df0f26aea1f1df472d2ebc063a7e0cb1e&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Search bar */
+/* #button{
+    color: black;
+} */
+.details{
+    color: aliceblue;
+    display: block;
+    margin-bottom: 20px;
+}
+#searchPart{
+    text-align: center;
+
+}
+#searchBox{
+    background-color: rgba(34, 33, 33, 0.5);
+    border-radius: 10px ;
+    height: 30px;
+    width:300px;
+    box-shadow: none;
+    margin-top: 30px;
+
+}
+#button{
+    background-color: rgba(34, 33, 33, 0.9);
+    border-radius: 10px ;
+    height: 30px;
+    box-shadow: none;
+    
+}
+/* Movie visuals section */
+#movieVisuals{
+    margin-top: 50px;
+}
+#movieDetails{
+    display: inline-block;
+    margin-left: 250px;
+    width: 500px;
+}
+
+#title{
+    font-size: 70px;
+    margin:0;
+}
+.oneLine{
+    display: inline;
+    font-size: 20px;
+}
+#clock{
+    margin-left: 45px;
+}
+#rating{
+    margin-left: 10px;
+}
+#duration{
+    margin-left: 10px;
+}
+#posterDiv{
+    display: inline;
+    margin-left: 180px;
+}
+
+#year{
+    font-size: 30px;
+}
+
+.buttons{
+    height:90px;
+    border-radius: 10px;
+    width:90px;
+    margin-left: 30px;
+    padding: 12px;
+}
+#trailer{
+    background-color: rgb(113, 78, 219)
+}
+#play{
+    background-color: rgb(218, 167, 116);
+}
+
+#aaa{
+   margin-top: 50px;
+   
+}
+@media screen and (max-width:800px){
+    
+   #movieDetails{
+      margin-left:50px;
+      text-align: center;
+   }
+   #posterDiv{
+      display: block;
+      margin-top:100px;
+      align-items: center;
+      width: 200px;
+   }
+   
+   #aaa{
+      text-align: center;
+   }
+}
+@media screen and (max-width:1200px){
+   #movieDetails{
+      margin-left:50px;
+   }
+   #posterDiv{
+      display: inline;
+      margin-top:50px;
+   }
+   
+   #aaa{
+      text-align: center;
+   }
+}
+
+@media screen and (max-width:1200px){
+   
+}
